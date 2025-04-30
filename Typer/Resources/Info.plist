@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleDisplayName</key>
+	<string>Typer</string>
+	<key>CFBundleExecutable</key>
+	<string>Typer</string>
+	<key>CFBundleIdentifier</key>
+	<string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
+	<key>CFBundleName</key>
+	<string>Typer</string>
+	<key>CFBundlePackageType</key>
+	<string>APPL</string>
+	<key>CFBundleShortVersionString</key>
+	<string>1.0.3</string>
+	<key>CFBundleVersion</key>
+	<string>1.0.3</string>
+	<key>NSAccessibilityUsageDescription</key>
+	<string>This app needs accessibility access to insert transcribed text at the cursor position.</string>
+	<key>NSMicrophoneUsageDescription</key>
+	<string>This app needs access to microphone to transcribe your voice.</string>
+	<key>Privacy - Accessibility Usage Description</key>
+	<string>This app needs accessibility access to insert transcribed text at the cursor position.</string>
+	<key>SUFeedURL</key>
+	<string>https://wenyuz.me/Typer/appcast.xml</string>
+	<key>SUPublicEDKey</key>
+	<string>bhkMNIM4eNf32wDpe4gqBXj0dkf3r92c/LmDNyqCQGI=</string>
+</dict>
+</plist>

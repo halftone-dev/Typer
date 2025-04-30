@@ -1,0 +1,22 @@
+# Basic formatting rules
+--indent 4        # Number of spaces for indentation
+--allman false    # Brace style (true = on new line, false = same line)
+--wraparguments before-first  # Argument wrapping style
+--wrapcollections before-first  # Collection wrapping style
+--linebreaks lf   # Line ending style
+
+# Whitespace
+# --maxwidth 100    # Maximum line width
+
+# Other common rules
+--semicolons never
+--commas always
+--binarygrouping 4,8
+--decimalgrouping 3
+--hexgrouping none
+--octalgrouping none
+--stripunusedargs closure-only
+--self remove     # When to explicitly use 'self'
+
+# Organization
+--importgrouping alphabetized

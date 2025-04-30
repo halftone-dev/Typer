@@ -1,0 +1,594 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4F2374E22D21A6DA004A5CFD /* WhisperKit in Frameworks */ = {isa = PBXBuildFile; productRef = 4F2374E12D21A6DA004A5CFD /* WhisperKit */; };
+		DD8013762D29A10900120DBA /* Sparkle in Frameworks */ = {isa = PBXBuildFile; productRef = DD8013752D29A10900120DBA /* Sparkle */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4F57DE182CF8CD3C0038FDC6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4F57DDFE2CF8CD3A0038FDC6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4F57DE052CF8CD3A0038FDC6;
+			remoteInfo = Typer;
+		};
+		4F57DE222CF8CD3C0038FDC6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4F57DDFE2CF8CD3A0038FDC6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4F57DE052CF8CD3A0038FDC6;
+			remoteInfo = Typer;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4F57DE062CF8CD3A0038FDC6 /* Typer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Typer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4F57DE172CF8CD3C0038FDC6 /* TyperTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TyperTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4F57DE212CF8CD3C0038FDC6 /* TyperUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TyperUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		4F57DE082CF8CD3A0038FDC6 /* Typer */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Typer;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4F57DE032CF8CD3A0038FDC6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F2374E22D21A6DA004A5CFD /* WhisperKit in Frameworks */,
+				DD8013762D29A10900120DBA /* Sparkle in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4F57DE142CF8CD3C0038FDC6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4F57DE1E2CF8CD3C0038FDC6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4F57DDFD2CF8CD3A0038FDC6 = {
+			isa = PBXGroup;
+			children = (
+				4F57DE082CF8CD3A0038FDC6 /* Typer */,
+				4F57DE072CF8CD3A0038FDC6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4F57DE072CF8CD3A0038FDC6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4F57DE062CF8CD3A0038FDC6 /* Typer.app */,
+				4F57DE172CF8CD3C0038FDC6 /* TyperTests.xctest */,
+				4F57DE212CF8CD3C0038FDC6 /* TyperUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4F57DE052CF8CD3A0038FDC6 /* Typer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4F57DE2B2CF8CD3C0038FDC6 /* Build configuration list for PBXNativeTarget "Typer" */;
+			buildPhases = (
+				4F57DE022CF8CD3A0038FDC6 /* Sources */,
+				4F57DE032CF8CD3A0038FDC6 /* Frameworks */,
+				4F57DE042CF8CD3A0038FDC6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				4F57DE082CF8CD3A0038FDC6 /* Typer */,
+			);
+			name = Typer;
+			packageProductDependencies = (
+				4F2374E12D21A6DA004A5CFD /* WhisperKit */,
+				DD8013752D29A10900120DBA /* Sparkle */,
+			);
+			productName = Typer;
+			productReference = 4F57DE062CF8CD3A0038FDC6 /* Typer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4F57DE162CF8CD3C0038FDC6 /* TyperTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4F57DE2E2CF8CD3C0038FDC6 /* Build configuration list for PBXNativeTarget "TyperTests" */;
+			buildPhases = (
+				4F57DE132CF8CD3C0038FDC6 /* Sources */,
+				4F57DE142CF8CD3C0038FDC6 /* Frameworks */,
+				4F57DE152CF8CD3C0038FDC6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4F57DE192CF8CD3C0038FDC6 /* PBXTargetDependency */,
+			);
+			name = TyperTests;
+			packageProductDependencies = (
+			);
+			productName = TyperTests;
+			productReference = 4F57DE172CF8CD3C0038FDC6 /* TyperTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4F57DE202CF8CD3C0038FDC6 /* TyperUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4F57DE312CF8CD3C0038FDC6 /* Build configuration list for PBXNativeTarget "TyperUITests" */;
+			buildPhases = (
+				4F57DE1D2CF8CD3C0038FDC6 /* Sources */,
+				4F57DE1E2CF8CD3C0038FDC6 /* Frameworks */,
+				4F57DE1F2CF8CD3C0038FDC6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4F57DE232CF8CD3C0038FDC6 /* PBXTargetDependency */,
+			);
+			name = TyperUITests;
+			packageProductDependencies = (
+			);
+			productName = TyperUITests;
+			productReference = 4F57DE212CF8CD3C0038FDC6 /* TyperUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4F57DDFE2CF8CD3A0038FDC6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1610;
+				LastUpgradeCheck = 1610;
+				TargetAttributes = {
+					4F57DE052CF8CD3A0038FDC6 = {
+						CreatedOnToolsVersion = 16.1;
+					};
+					4F57DE162CF8CD3C0038FDC6 = {
+						CreatedOnToolsVersion = 16.1;
+						TestTargetID = 4F57DE052CF8CD3A0038FDC6;
+					};
+					4F57DE202CF8CD3C0038FDC6 = {
+						CreatedOnToolsVersion = 16.1;
+						TestTargetID = 4F57DE052CF8CD3A0038FDC6;
+					};
+				};
+			};
+			buildConfigurationList = 4F57DE012CF8CD3A0038FDC6 /* Build configuration list for PBXProject "Typer" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4F57DDFD2CF8CD3A0038FDC6;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				4F2374E02D21A6DA004A5CFD /* XCRemoteSwiftPackageReference "whisperkit" */,
+				DD8013742D29A10900120DBA /* XCRemoteSwiftPackageReference "Sparkle" */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 4F57DE072CF8CD3A0038FDC6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4F57DE052CF8CD3A0038FDC6 /* Typer */,
+				4F57DE162CF8CD3C0038FDC6 /* TyperTests */,
+				4F57DE202CF8CD3C0038FDC6 /* TyperUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4F57DE042CF8CD3A0038FDC6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4F57DE152CF8CD3C0038FDC6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4F57DE1F2CF8CD3C0038FDC6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4F57DE022CF8CD3A0038FDC6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4F57DE132CF8CD3C0038FDC6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4F57DE1D2CF8CD3C0038FDC6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4F57DE192CF8CD3C0038FDC6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4F57DE052CF8CD3A0038FDC6 /* Typer */;
+			targetProxy = 4F57DE182CF8CD3C0038FDC6 /* PBXContainerItemProxy */;
+		};
+		4F57DE232CF8CD3C0038FDC6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4F57DE052CF8CD3A0038FDC6 /* Typer */;
+			targetProxy = 4F57DE222CF8CD3C0038FDC6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		4F57DE292CF8CD3C0038FDC6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4F57DE2A2CF8CD3C0038FDC6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		4F57DE2C2CF8CD3C0038FDC6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
+				CODE_SIGN_ENTITLEMENTS = Typer/Resources/Typer.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Manual;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Typer/Preview Content\"";
+				DEVELOPMENT_TEAM = "";
+				"DEVELOPMENT_TEAM[sdk=macosx*]" = W4HW4N9MLN;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = Typer/Resources/Info.plist;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "This app requires mic";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.liboshen.Typer.dev;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		4F57DE2D2CF8CD3C0038FDC6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
+				CODE_SIGN_ENTITLEMENTS = Typer/Resources/Typer.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Developer ID Application";
+				CODE_SIGN_STYLE = Manual;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Typer/Preview Content\"";
+				DEVELOPMENT_TEAM = "";
+				"DEVELOPMENT_TEAM[sdk=macosx*]" = W4HW4N9MLN;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = Typer/Resources/Info.plist;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "This app requires mic";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.liboshen.Typer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		4F57DE2F2CF8CD3C0038FDC6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.liboshen.TyperTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Typer.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Typer";
+			};
+			name = Debug;
+		};
+		4F57DE302CF8CD3C0038FDC6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.liboshen.TyperTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Typer.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Typer";
+			};
+			name = Release;
+		};
+		4F57DE322CF8CD3C0038FDC6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.liboshen.TyperUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = Typer;
+			};
+			name = Debug;
+		};
+		4F57DE332CF8CD3C0038FDC6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.liboshen.TyperUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = Typer;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4F57DE012CF8CD3A0038FDC6 /* Build configuration list for PBXProject "Typer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4F57DE292CF8CD3C0038FDC6 /* Debug */,
+				4F57DE2A2CF8CD3C0038FDC6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4F57DE2B2CF8CD3C0038FDC6 /* Build configuration list for PBXNativeTarget "Typer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4F57DE2C2CF8CD3C0038FDC6 /* Debug */,
+				4F57DE2D2CF8CD3C0038FDC6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4F57DE2E2CF8CD3C0038FDC6 /* Build configuration list for PBXNativeTarget "TyperTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4F57DE2F2CF8CD3C0038FDC6 /* Debug */,
+				4F57DE302CF8CD3C0038FDC6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4F57DE312CF8CD3C0038FDC6 /* Build configuration list for PBXNativeTarget "TyperUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4F57DE322CF8CD3C0038FDC6 /* Debug */,
+				4F57DE332CF8CD3C0038FDC6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		4F2374E02D21A6DA004A5CFD /* XCRemoteSwiftPackageReference "whisperkit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/argmaxinc/whisperkit";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+		DD8013742D29A10900120DBA /* XCRemoteSwiftPackageReference "Sparkle" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/sparkle-project/Sparkle";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.6.4;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		4F2374E12D21A6DA004A5CFD /* WhisperKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 4F2374E02D21A6DA004A5CFD /* XCRemoteSwiftPackageReference "whisperkit" */;
+			productName = WhisperKit;
+		};
+		DD8013752D29A10900120DBA /* Sparkle */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = DD8013742D29A10900120DBA /* XCRemoteSwiftPackageReference "Sparkle" */;
+			productName = Sparkle;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 4F57DDFE2CF8CD3A0038FDC6 /* Project object */;
+}
