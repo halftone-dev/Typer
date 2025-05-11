@@ -120,4 +120,4 @@ If you encounter any issues:
 
 ## License
 
-[License information to be added]
+Typer's code are released under the Apache-2.0 license. See [LICENSE](LICENSE) for further details.
